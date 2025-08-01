@@ -1,0 +1,252 @@
+{
+  "site": {
+    "title": "Rounak Naik | Full Stack Developer",
+    "description": "Professional portfolio of Rounak Naik - Full Stack Developer & UI Designer specializing in React, Node.js, and modern web technologies.",
+    "logo": "Rounak Naik",
+    "copyright": "© 2025 Rounak Naik. All rights reserved."
+  },
+  "personalInfo": {
+    "name": "Rounak Naik",
+    "title": "Full Stack Developer",
+    "bio": "I'm a passionate Full Stack Developer currently pursuing my Bachelor's in Computer Engineering, blending academic knowledge with 5+ years of hands-on development experience. My journey has taken me across both national and international projects, giving me a unique perspective on building scalable, user-centric applications.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    "email": "alex.johnson@email.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA"
+  },
+  "socialLinks": {
+    "github": "https://github.com/Rounaknyk/",
+    "linkedin": "https://www.linkedin.com/in/rounak-naik-39354021b/",
+    "twitter": "https://twitter.com/alexjohnson",
+    "dribbble": "https://dribbble.com/alexjohnson",
+    "behance": "https://behance.net/alexjohnson",
+    "instagram": "https://www.instagram.com/rounak_nyk/"
+  },
+  "navigation": [
+    {
+      "name": "About",
+      "path": "/about"
+    },
+    {
+      "name": "Projects",
+      "path": "/projects"
+    },
+    {
+      "name": "Awards",
+      "path": "/awards"
+    },
+    {
+      "name": "Journey",
+      "path": "/journey"
+    },
+    {
+      "name": "Tech Stack",
+      "path": "/techstack"
+    }
+  ],
+  "homePage": {
+    "ctaButton": {
+      "text": "View My Work",
+      "link": "/projects"
+    },
+    "heroSubtitle": "Crafting digital experiences that matter"
+  },
+  "aboutPage": {
+    "title": "About Me",
+    "sections": {
+      "education": {
+        "title": "Education",
+        "content": "Currently pursuing Bachelor's in Computer Engineering with majors in Artifical Intelligence and Machine learning from Padre conceicao college of engineering, Goa, India."
+      },
+      "experience": {
+        "title": "Experience",
+        "content": "5+ years of experience in full-stack development, working with startups and established companies. Specialized in Flutte, Firebase, Node.js, React.js and modern web technologies."
+      },
+      "whatIDo": {
+        "title": "What I Do",
+        "content": "I create beautiful, functional cross-platform applications that solve real-world problems. From concept to deployment, I handle every aspect of the development process."
+      },
+      "approach": {
+        "title": "My Approach",
+        "content": "I believe in writing clean, maintainable code and creating user experiences that are both beautiful and intuitive. Every project is an opportunity to learn and grow."
+      }
+    },
+    "stats": [
+      {
+        "number": "5+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "25+", 
+        "label": "Projects Completed"
+      },
+      {
+        "number": "20+",
+        "label": "Happy Clients"
+      },
+      {
+        "number": "6",
+        "label": "Technologies"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-featured online store with product catalog, cart functionality, and Stripe payment integration. Built with Next.js for server-side rendering and optimized performance.",
+      "image": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1672&q=80",
+      "githubLink": "https://github.com/alexjohnson/ecommerce-platform",
+      "liveLink": "https://ecommerce-demo.alexjohnson.dev",
+      "technologies": ["Next.js", "React", "Node.js", "MongoDB", "Stripe"]
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A productivity application with drag-and-drop task boards, real-time updates, and team collaboration features. Uses Firebase for backend services.",
+      "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
+      "githubLink": "https://github.com/alexjohnson/task-manager",
+      "liveLink": "https://taskmanager.alexjohnson.dev",
+      "technologies": ["React", "Firebase", "Material UI", "Redux"]
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "Interactive weather application showing current conditions and 5-day forecast for any location. Integrates with the OpenWeatherMap API.",
+      "image": "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1675&q=80",
+      "githubLink": "https://github.com/alexjohnson/weather-app",
+      "liveLink": "https://weather.alexjohnson.dev",
+      "technologies": ["JavaScript", "CSS3", "REST APIs"]
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Website",
+      "description": "A modern, responsive portfolio website built with Next.js and TypeScript. Features smooth animations and optimized performance.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80",
+      "githubLink": "https://github.com/alexjohnson/portfolio",
+      "liveLink": "https://alexjohnson.dev",
+      "technologies": ["Next.js", "TypeScript", "CSS Modules", "Framer Motion"]
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Best Web App Award",
+      "year": "2023",
+      "organization": "Tech Innovators Conference",
+      "image": "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "description": "Awarded for innovative use of serverless architecture in the E-Commerce Platform project."
+    },
+    {
+      "id": 2,
+      "title": "Hackathon Champion",
+      "year": "2022",
+      "organization": "CodeFest",
+      "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "description": "Won first place in the 24-hour hackathon for developing a mental health tracking application."
+    },
+    {
+      "id": 3,
+      "title": "Developer of the Year",
+      "year": "2023",
+      "organization": "Web Dev Community",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "description": "Recognized for outstanding contributions to the developer community and mentorship of junior developers."
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Guest Speaker - Web Accessibility",
+      "year": "2023",
+      "organization": "Web Dev Summit",
+      "description": "Presented on implementing WCAG 2.1 guidelines in modern web applications."
+    },
+    {
+      "id": 2,
+      "title": "Workshop Leader - React Hooks",
+      "year": "2022",
+      "organization": "JavaScript Meetup",
+      "description": "Conducted hands-on workshop teaching best practices for using React Hooks."
+    },
+    {
+      "id": 3,
+      "title": "Panel Discussion - Future of Web Development",
+      "year": "2023",
+      "organization": "Tech Conference 2023",
+      "description": "Participated in a panel discussion about emerging trends in web development."
+    }
+  ],
+  "journey": [
+    {
+      "year": "2023",
+      "title": "Launched SaaS Product",
+      "description": "Developed and launched my own SaaS product for small businesses, handling all aspects from coding to marketing."
+    },
+    {
+      "year": "2022",
+      "title": "Full-time Freelancing",
+      "description": "Transitioned to full-time freelance development, working with clients across North America and Europe."
+    },
+    {
+      "year": "2021",
+      "title": "First Client Project",
+      "description": "Completed my first paid freelance project - a WordPress site for a local bakery."
+    },
+    {
+      "year": "2020",
+      "title": "Started Learning Web Development",
+      "description": "Began self-teaching web development through online courses and building personal projects."
+    }
+  ],
+  "techStack": [
+    {
+      "name": "Flutter",
+      "proficiency": "Advanced",
+      "icon": "",
+      "description": "Core framework for cross-platform mobile and development"
+    },
+    {
+      "name": "Node.js",
+      "proficiency": "Advanced",
+      "icon": "🟢",
+      "description": "Runtime environment for server-side JavaScript"
+    },
+    {
+      "name": "Firebase",
+      "proficiency": "Advanced",
+      "icon": "🔥",
+      "description": "Backend-as-a-Service platform"
+    },
+    {
+      "name": "MongoDB",
+      "proficiency": "Advanced",
+      "icon": "🍃",
+      "description": "NoSQL database for scalable applications"
+    },
+    {
+      "name": "React.js",
+      "proficiency": "Intermediate",
+      "icon": "⚛️",
+      "description": "Modern UI library for building interactive interfaces"
+    },
+    {
+      "name": "Next.js",
+      "proficiency": "Intermediate",
+      "icon": "⚡",
+      "description": "Full-stack React framework with SSR"
+    }
+  ],
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm always interested in new opportunities and exciting projects. Let's work together!",
+    "email": "alex.johnson@email.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA"
+  },
+  "meta": {
+    "keywords": "Full Stack Developer, React Developer, Node.js Developer, Web Developer, UI Designer, Freelance Developer",
+    "author": "Rounak Naik",
+    "ogImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  }
+} 

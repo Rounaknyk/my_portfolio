@@ -1,14 +1,16 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import { portfolioData } from '@/data/portfolioData';
+import { getAwards } from '@/utils/config';
 
 export default function Awards() {
+  const awards = getAwards();
+
   return (
     <section className={styles.awards}>
       <div className={styles.container}>
         <h1>My Awards & Recognition</h1>
         <div className={styles.awardsList}>
-          {portfolioData.awards.map((award) => (
+          {awards.map((award) => (
             <div key={award.id} className={styles.awardItem}>
               <div className={styles.awardBadge}>Award</div>
               <div className={styles.awardYear}>{award.year}</div>

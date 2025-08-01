@@ -1,36 +1,198 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Modern Portfolio Website
 
-## Getting Started
+A beautiful, responsive portfolio website built with Next.js, TypeScript, and modern CSS. Features a centralized configuration system for easy content management.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Beautiful gradients, animations, and hover effects
+- **Fully Responsive**: Optimized for all devices
+- **Centralized Configuration**: All content in one JSON file
+- **TypeScript**: Full type safety
+- **Performance Optimized**: Fast loading and smooth animations
+- **SEO Ready**: Meta tags and structured data
+
+## 🚀 Quick Start
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Open your browser**:
+   Navigate to `http://localhost:3000`
+
+## 📝 Configuration
+
+All website content is managed through the centralized configuration file:
+
+### `src/data/siteConfig.json`
+
+This file contains all the content for your portfolio. Simply edit this file to update your website:
+
+#### Site Information
+```json
+{
+  "site": {
+    "title": "Your Name | Full Stack Developer",
+    "description": "Your portfolio description",
+    "logo": "Your Name",
+    "copyright": "© 2024 Your Name. All rights reserved."
+  }
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Personal Information
+```json
+{
+  "personalInfo": {
+    "name": "Your Name",
+    "title": "Your Title",
+    "bio": "Your bio description",
+    "image": "Your profile image URL",
+    "email": "your.email@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Your Location"
+  }
+}
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Social Links
+```json
+{
+  "socialLinks": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "twitter": "https://twitter.com/yourusername"
+  }
+}
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Projects
+```json
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project Title",
+      "description": "Project description",
+      "image": "Project image URL",
+      "githubLink": "GitHub repository URL",
+      "liveLink": "Live demo URL (optional)",
+      "technologies": ["React", "Node.js", "MongoDB"]
+    }
+  ]
+}
+```
 
-## Learn More
+#### Tech Stack
+```json
+{
+  "techStack": [
+    {
+      "name": "JavaScript",
+      "proficiency": "Advanced",
+      "icon": "JS",
+      "description": "Technology description"
+    }
+  ]
+}
+```
 
-To learn more about Next.js, take a look at the following resources:
+#### Awards & Recognition
+```json
+{
+  "awards": [
+    {
+      "id": 1,
+      "title": "Award Title",
+      "year": "2023",
+      "organization": "Organization Name",
+      "image": "Award image URL",
+      "description": "Award description"
+    }
+  ]
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Journey/Timeline
+```json
+{
+  "journey": [
+    {
+      "year": "2023",
+      "title": "Milestone Title",
+      "description": "Milestone description"
+    }
+  ]
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customization
 
-## Deploy on Vercel
+### Colors & Styling
+Edit `src/app/globals.css` to customize:
+- Color scheme
+- Typography
+- Animations
+- Shadows and effects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Layout & Components
+Each page has its own CSS module:
+- `src/app/page.module.css` - Home page
+- `src/app/projects/page.module.css` - Projects page
+- `src/app/about/page.module.css` - About page
+- `src/app/techstack/page.module.css` - Tech stack page
+- `src/app/awards/page.module.css` - Awards page
+- `src/app/journey/page.module.css` - Journey page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints:
+- **Desktop**: 1200px+
+- **Tablet**: 768px - 1199px
+- **Mobile**: 320px - 767px
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
+
+### Other Platforms
+- Netlify
+- AWS Amplify
+- DigitalOcean App Platform
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: CSS Modules
+- **Fonts**: Inter (Google Fonts)
+- **Images**: Next.js Image Optimization
+- **Deployment**: Vercel
+
+## 📄 License
+
+MIT License - feel free to use this template for your own portfolio!
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📞 Support
+
+If you have any questions or need help customizing your portfolio, feel free to reach out!
+
+---
+
+**Happy coding! 🎉**

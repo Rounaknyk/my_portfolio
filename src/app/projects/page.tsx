@@ -1,14 +1,16 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import { portfolioData } from '@/data/portfolioData';
+import { getProjects } from '@/utils/config';
 
 export default function Projects() {
+  const projects = getProjects();
+
   return (
     <section className={styles.projects}>
       <div className={styles.container}>
         <h1>My Projects</h1>
         <div className={styles.projectsGrid}>
-          {portfolioData.projects.map((project) => (
+          {projects.map((project) => (
             <div key={project.id} className={styles.projectCard}>
               <div className={styles.projectImage}>
                 <Image
@@ -27,14 +29,26 @@ export default function Projects() {
                     <span key={index}>{tech}</span>
                   ))}
                 </div>
-                <a 
-                  href={project.githubLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className={styles.githubLink}
-                >
-                  View on GitHub
-                </a>
+                <div className={styles.projectLinks}>
+                  <a 
+                    href={project.githubLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className={styles.githubLink}
+                  >
+                    View on GitHub
+                  </a>
+                  {project.liveLink && (
+                    <a 
+                      href={project.liveLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className={styles.liveLink}
+                    >
+                      Live Demo
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}

@@ -1,6 +1,6 @@
 export const portfolioData = {
   personalInfo: {
-    name: "Alex Johnson",
+    name: "Rounak Naik",
     title: "Full Stack Developer & UI Designer",
     bio: "Passionate about creating beautiful, functional web applications with React and Node.js. With 3 years of freelance experience, I specialize in building responsive, accessible websites that deliver real business value.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
